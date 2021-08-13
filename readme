@@ -1,0 +1,13 @@
+This script produces a streamlit page of waveforms from directory 'samples' in the same level as the script. 
+
+Installation Instructions
+have python/pip installed
+pip install streamlit
+pip install matplotlib
+pip install librosa
+
+Execution Instructions
+streamlit run main.py
+
+Problems
+getting error OverflowError:In draw_markers: Exceeded cell block limit
